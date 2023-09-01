@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #07070f;
+}
+.auth {
+    width: 450px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #1c1c27;
+    border-radius: 35px;
+}
+.auth-title {
+    margin: 60px;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: #777;
+}
+.form-group {
+    margin-bottom: 25px;
+}
+.input {
+    display: block;
+    width: 400px;
+    margin: 0 10px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #1c1c27;
+    border: 0;
+    border-bottom: 2px solid #333;
+    color: rgba(214, 146, 36, 0.35);
+}
+.input:focus {
+    outline: 0;
+    border-bottom: 2px solid #d69224;
+    transition: 0.2s;
+}
+.auth-container {
+    margin-top: 100px;
+}
+.auth-btn {
+    display: block;
+    width: 430px;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    background-color: #1c1c27;
+    border: 3px solid #d69224;
+    border-radius: 25px;
+    color: #d69224;
+}
+.auth-btn:focus {
+    outline: 1px solid #d69224;
+    transition: 0.2s;
+}
+.auth-btn:hover {
+    outline: 1px solid #d69224;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.auth-btn:active {
+    background-color: rgba(214, 146, 36, 0.35);
+}
+.question-text {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+}
+.link-after-question {
+    text-decoration: none;
+    color: #d69224;
+}
+.link-after-question:focus {
+    outline: 0;
+    border-bottom: 1px solid #d69224;
+}
+.link-after-question:hover {
+    border-bottom: 1px solid #d69224;
+}
+.password-recovery-link {
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    font-size: 16px;
+    margin: 14px;
+    color: rgba(214, 146, 36, 0.35);
+}
+.password-recovery-link:focus {
+    outline: 0;
+    text-decoration: underline;
+}
+.password-recovery-link:hover {
+    text-decoration: underline;
+}
